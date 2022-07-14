@@ -1,0 +1,42 @@
+1. creating react app
+2. changing app function
+3. creting new message function and passing props from app function
+4. creating const array and use of array.map
+    passing parameters using object and  also single parameter
+    while accessing object values use object key in your componenet
+    if you want to use two componenet inside map then use nest 
+    them inside div or react fragment
+@@ why we use map instead of for loop 
+    - because JSX requires expression and for loop doesnot return expression but map retuns expression
+    - you can not assign for loop to varibale bcs for loop doesnot retuns anything
+5. Event Listener
+    1.camelCase
+    2.like counter react doesnot know that you have changed like count because react doesnot listen to changes that you do
+    3.react listen to things that you say listen to 
+    4.we can make react listen change using hooks
+        - Hook is function that always start with word 'use'
+        - syntax  - const[state, setState] = useState(initialValue)
+            useState function will return two values 1. is state and another is setState
+            setState function is used to update state
+
+6. for giving style using conditional styles
+    - use const style then object { color: ternary operator}
+7. conditional rendering html is removed from DOM altogether
+    - its more costly as its insertion and deletion from DOm takes lot of resources as compared to 
+    hiding it within DOM
+8.conditional styling html componenet is there in DOM its just hidden with display block
+9.why Unique Key warning and how to solve it - reconsillation
+10. add color colored textbox andadding color div below textbox 
+11. in form for each input box you should have use state and 
+on change function call setState of that input box
+12. use of Routes, Link and Navigate
+13. Anything before <Routes> will not vanish on clicking routes and links
+    hence Header should be included before <Routes>
+14.Showing movie details on another page
+    use of useNavigate
+    useParams
+15.use of Context to avoid props drilling
+
+16. change of theme
+17.Tic Tac Toe 14 june and 15 june half half
+18. Mockapi creation
