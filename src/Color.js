@@ -26,8 +26,8 @@ export function Color() {
         Add Color
       </button>
 
-      {colorlist.map((clr) => (
-        <ColorBox color={clr} />
+      {colorlist.map((clr, index) => (
+        <ColorBox key={index} color={clr} />
       ))}
     </div>
   );
